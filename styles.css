@@ -50,3 +50,67 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+/* Media Query for Small Screens */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .btn {
+    height: 100px;
+    width: 100px;
+    border-width: 8px;
+  }
+
+  #level-title{
+    font: 1em cursive;
+  }
+}
+
+/* Media Query for Medium Screens */
+@media (min-width: 481px) and (max-width: 720px) {
+  
+
+  .container {
+    width: 80%;
+  }
+
+  .btn {
+    height: 120px;
+    width: 120px;
+    border-width: 10px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1200px) {
+  
+
+  .container {
+    width: 80%;
+  }
+
+  .btn {
+    height: 120px;
+    width: 120px;
+    border-width: 10px;
+  }
+}
+
+/* Media Query for Large Screens */
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .container {
+    width: 70%;
+  }
+
+  .btn {
+    height: 150px;
+    width: 150px;
+    border-width: 10px;
+  }
+}
+
+/* Media Query for Extra Large Screens */
+@media (min-width: 1601px) {
+  
+}
